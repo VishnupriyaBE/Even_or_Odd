@@ -1,0 +1,112 @@
+body
+{
+background: url(./bg.jpg);
+background-size: cover;
+}
+h1,h3
+{
+    color:black;
+    font-size: xx-large;
+    padding-top: 10px;
+
+}
+#heading
+{
+    width: fit-content;
+    margin: auto;
+}
+#title
+{
+    display: flex;
+    width: 470px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+#content
+{
+    width: 800px;
+    height: 200px;
+    border: 4px solid blue ;
+    border-style: double;
+    border-width: 10px;
+    border-color: black aqua;
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+#circle
+{
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    border-style: double;
+    border-radius: 50%;
+    margin-top: 25px;
+    
+    
+}
+#player1
+{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 5px;
+}
+#player2
+{
+display:flex;
+    margin-top: 50px;
+}
+.score
+{
+    color: red;
+    display: flex;
+    margin-top: 80px;
+    font-size: xx-large;
+}
+#result{
+    width: fit-content;
+    
+    margin: auto;
+    margin-top: 20px;
+    color: black;
+    font-size: xx-large;
+}
+.btns{
+    width:650px;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25px;
+}
+input{
+    background:rgb(88, 88, 200);
+    color: black;
+    width: 100px;
+    height: 55px;
+    font-size: x-large;
+    border-top-left-radius: 25%;
+    border-top-right-radius:25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius:25% ;
+    border-style: inset;
+
+}
+#refresh{
+    background:rgb(88, 88, 200);
+    color: black;
+    width: 100px;
+    height: 55px;
+    font-size: x-large;
+    border-top-left-radius: 25%;
+    border-top-right-radius:25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius:25% ;
+    border-style:inset;
+
+}
+#play:hover,#refresh:hover{
+    background: white;
+    color:black;
+}
